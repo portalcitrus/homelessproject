@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "70"
+	"mapversion" "71"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "70"
+	"mapversion" "71"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2874,8 +2874,8 @@ world
 		{
 			"id" "4613"
 			"plane" "(0 448 384) (0 448 128) (0 64 128)"
-			"material" "TILE/CITRUS_TILE_04"
-			"uaxis" "[0 1 0 256] 0.25"
+			"material" "TILE/WHITE_WALL_TILE003A"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
