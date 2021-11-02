@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "79"
+	"mapversion" "80"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,89 +20,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "79"
+	"mapversion" "80"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_black_nofog"
-	solid
-	{
-		"id" "11609"
-		side
-		{
-			"id" "5934"
-			"plane" "(1568 1392 256) (1184 1392 256) (1184 1440 256)"
-			"material" "METAL/BLACK_FLOOR_METAL_001D"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 256] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5933"
-			"plane" "(1568 1440 0) (1568 1440 256) (1184 1440 256)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5932"
-			"plane" "(1184 1392 0) (1184 1392 256) (1568 1392 256)"
-			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 -640] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5931"
-			"plane" "(1568 1392 0) (1568 1392 256) (1568 1440 256)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5930"
-			"plane" "(1184 1440 0) (1184 1440 256) (1184 1392 256)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5929"
-			"plane" "(1568 1440 0) (1184 1440 0) (1184 1392 0)"
-			"material" "METAL/BLACK_FLOOR_METAL_001D"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 196 221"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	solid
 	{
 		"id" "11216"
@@ -5989,7 +5913,7 @@ world
 		side
 		{
 			"id" "3797"
-			"plane" "(1568 1440 256) (1568 1440 512) (1184 1440 512)"
+			"plane" "(1568 1440 0) (1568 1440 512) (1184 1440 512)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -6000,7 +5924,7 @@ world
 		side
 		{
 			"id" "3796"
-			"plane" "(1184 1376 256) (1184 1376 512) (1568 1376 512)"
+			"plane" "(1184 1376 0) (1184 1376 512) (1568 1376 512)"
 			"material" "METAL/BLACK_WALL_METAL_002C"
 			"uaxis" "[1 0 0 -640] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -6011,7 +5935,7 @@ world
 		side
 		{
 			"id" "3795"
-			"plane" "(1568 1376 256) (1568 1376 512) (1568 1440 512)"
+			"plane" "(1568 1376 0) (1568 1376 512) (1568 1440 512)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -6022,7 +5946,7 @@ world
 		side
 		{
 			"id" "3794"
-			"plane" "(1184 1440 256) (1184 1440 512) (1184 1376 512)"
+			"plane" "(1184 1440 0) (1184 1440 512) (1184 1376 512)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -6033,7 +5957,7 @@ world
 		side
 		{
 			"id" "3793"
-			"plane" "(1568 1440 256) (1184 1440 256) (1184 1376 256)"
+			"plane" "(1568 1440 0) (1184 1440 0) (1184 1376 0)"
 			"material" "METAL/BLACK_FLOOR_METAL_001D"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -18790,35 +18714,6 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
-	}
-}
-entity
-{
-	"id" "11617"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "0 -1 0"
-	"BasisOrigin" "1440 1392 192"
-	"BasisU" "1 0 0"
-	"BasisV" "-0 0 1"
-	"endu" "1"
-	"endv" "0"
-	"fademindist" "-1"
-	"material" "overlays/letter_aa"
-	"sides" "5932"
-	"startu" "0"
-	"startv" "1"
-	"uv0" "-128 -64 0"
-	"uv1" "-128 64 0"
-	"uv2" "128 64 0"
-	"uv3" "128 -64 0"
-	"origin" "1440 1392 192"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
 entity
