@@ -1,0 +1,270 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Portal 2\portal2\materials
+Loading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-166.54 -349.55 176.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (120044 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 273 texinfos to 161
+Reduced 25 texdatas to 22 (835 bytes to 717)
+Writing d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+
+nummapplanes:     (  2066 / 65536 )
+nummapbrushes:    (   307 /  8192 )
+nummapbrushsides: (  2795 / 65536 )
+num_map_overlays: (     2 /   512 )
+nummodels:        (    13 /  1024 )
+num_entities:     (   126 / 16384 )
+
+1 second elapsed
+
+
+
+4 threads
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt
+LoadPortals: couldn't read d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Portal 2\portal2\materials
+Loading D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-166.54 -349.55 176.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (120044 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 273 texinfos to 161
+Reduced 25 texdatas to 22 (835 bytes to 717)
+Writing D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+
+nummapplanes:     (  2066 / 65536 )
+nummapbrushes:    (   307 /  8192 )
+nummapbrushsides: (  2795 / 65536 )
+num_map_overlays: (     2 /   512 )
+nummodels:        (    13 /  1024 )
+num_entities:     (   126 / 16384 )
+
+1 second elapsed
+
+
+
+4 threads
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt
+LoadPortals: couldn't read d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Portal 2\portal2\materials
+Loading D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-166.54 -349.55 176.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (120044 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 273 texinfos to 161
+Reduced 25 texdatas to 22 (835 bytes to 717)
+Writing D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+
+nummapplanes:     (  2066 / 65536 )
+nummapbrushes:    (   307 /  8192 )
+nummapbrushsides: (  2795 / 65536 )
+num_map_overlays: (     2 /   512 )
+nummodels:        (    13 /  1024 )
+num_entities:     (   126 / 16384 )
+
+1 second elapsed
+
+
+
+4 threads
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt
+LoadPortals: couldn't read d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Portal 2\portal2\materials
+Loading D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-166.54 -349.55 176.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (120044 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 273 texinfos to 161
+Reduced 25 texdatas to 22 (835 bytes to 717)
+Writing D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+
+nummapplanes:     (  2066 / 65536 )
+nummapbrushes:    (   307 /  8192 )
+nummapbrushsides: (  2795 / 65536 )
+num_map_overlays: (     2 /   512 )
+nummodels:        (    13 /  1024 )
+num_entities:     (   126 / 16384 )
+
+1 second elapsed
+
+
+
+4 threads
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt
+LoadPortals: couldn't read d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Portal 2\portal2\materials
+Loading D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-166.54 -349.55 176.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (120044 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 273 texinfos to 161
+Reduced 25 texdatas to 22 (835 bytes to 717)
+Writing D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+
+nummapplanes:     (  2066 / 65536 )
+nummapbrushes:    (   307 /  8192 )
+nummapbrushsides: (  2795 / 65536 )
+num_map_overlays: (     2 /   512 )
+nummodels:        (    13 /  1024 )
+num_entities:     (   126 / 16384 )
+
+1 second elapsed
+
+
+
+4 threads
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt
+LoadPortals: couldn't read d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Portal 2\portal2\materials
+Loading D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-166.54 -349.55 176.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (120044 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 273 texinfos to 161
+Reduced 25 texdatas to 22 (835 bytes to 717)
+Writing D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+
+nummapplanes:     (  2066 / 65536 )
+nummapbrushes:    (   307 /  8192 )
+nummapbrushsides: (  2795 / 65536 )
+num_map_overlays: (     2 /   512 )
+nummodels:        (    13 /  1024 )
+num_entities:     (   126 / 16384 )
+
+1 second elapsed
+
+
+
+4 threads
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.bsp
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt
+LoadPortals: couldn't read d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\coop\coop_endlevel_room_therapy.prt

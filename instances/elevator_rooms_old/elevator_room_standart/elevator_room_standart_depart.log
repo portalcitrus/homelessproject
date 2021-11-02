@@ -1,0 +1,1652 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 727 texinfos to 304
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2748 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (   127 / 16384 )
+
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1259 visible clusters (0.00%)
+Total clusters visible: 118950
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 416
+visdatasize:46931  compressed from 46704
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+56 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+998 faces
+382858 square feet [55131624.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+998 patches before subdivision
+8220 patches after subdivision
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 621999, max 361
+transfer lists:   4.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3757, 5195, 5519)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(968, 1392, 1416)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(332, 489, 490)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(130, 194, 195)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(54, 82, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 36, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 16, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 7, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2 of 2 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                558/8192         6696/98304    ( 6.8%) 
+brushsides            4603/65536       36824/524288   ( 7.0%) 
+planes                2748/65536       54960/1310720  ( 4.2%) 
+vertexes              2613/65536       31356/786432   ( 4.0%) 
+nodes                  995/65536       31840/2097152  ( 1.5%) 
+texinfos               304/12288       21888/884736   ( 2.5%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  998/65536       55888/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              676/65536       37856/3670016  ( 1.0%) 
+facebrushes            102/0             204/0        ( 0.0%) 
+facebrushlists         998/0            3992/0        ( 0.0%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             1501/65536        3002/131072   ( 2.3%) 
+leafbrushes           1069/65536        2138/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7417/512000      29668/2048000  ( 1.4%) 
+edges                 4647/256000      18588/1024000  ( 1.8%) 
+LDR worldlights         50/8192         5000/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            221/32768        2210/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3762/65536        7524/131072   ( 5.7%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      649260/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       46931/16777216 ( 0.3%) 
+entdata               [variable]       35638/393216   ( 9.1%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient      3827/65536      107156/1835008  ( 5.8%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12140    ( 0.0%) 
+pakfile               [variable]      149726/0        ( 0.0%) 
+physics               [variable]      169541/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2746
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 727 texinfos to 304
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2744 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (   127 / 16384 )
+
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1259 visible clusters (0.00%)
+Total clusters visible: 118950
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 416
+visdatasize:46931  compressed from 46704
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+51 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+998 faces
+382833 square feet [55128040.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+998 patches before subdivision
+8220 patches after subdivision
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 622001, max 361
+transfer lists:   4.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3757, 5195, 5519)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(968, 1392, 1416)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(332, 489, 490)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(130, 194, 195)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(54, 82, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 36, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 16, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 7, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2 of 2 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                558/8192         6696/98304    ( 6.8%) 
+brushsides            4603/65536       36824/524288   ( 7.0%) 
+planes                2744/65536       54880/1310720  ( 4.2%) 
+vertexes              2613/65536       31356/786432   ( 4.0%) 
+nodes                  995/65536       31840/2097152  ( 1.5%) 
+texinfos               304/12288       21888/884736   ( 2.5%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  998/65536       55888/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              676/65536       37856/3670016  ( 1.0%) 
+facebrushes            102/0             204/0        ( 0.0%) 
+facebrushlists         998/0            3992/0        ( 0.0%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             1501/65536        3002/131072   ( 2.3%) 
+leafbrushes           1069/65536        2138/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7417/512000      29668/2048000  ( 1.4%) 
+edges                 4647/256000      18588/1024000  ( 1.8%) 
+LDR worldlights         50/8192         5000/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            221/32768        2210/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3762/65536        7524/131072   ( 5.7%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      649260/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       46931/16777216 ( 0.3%) 
+entdata               [variable]       35638/393216   ( 9.1%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient      3827/65536      107156/1835008  ( 5.8%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12140    ( 0.0%) 
+pakfile               [variable]      149726/0        ( 0.0%) 
+physics               [variable]      169541/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2746
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 726 texinfos to 303
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2744 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (   114 / 16384 )
+
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1259 visible clusters (0.00%)
+Total clusters visible: 118950
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 416
+visdatasize:46931  compressed from 46704
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+51 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1014 faces
+382833 square feet [55128036.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1014 patches before subdivision
+9724 patches after subdivision
+37 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 713888, max 361
+transfer lists:   5.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3352, 4685, 4940)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(933, 1348, 1368)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(328, 485, 485)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(129, 194, 194)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(54, 82, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 36, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 16, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 7, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2 of 2 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                558/8192         6696/98304    ( 6.8%) 
+brushsides            4603/65536       36824/524288   ( 7.0%) 
+planes                2744/65536       54880/1310720  ( 4.2%) 
+vertexes              2633/65536       31596/786432   ( 4.0%) 
+nodes                  995/65536       31840/2097152  ( 1.5%) 
+texinfos               303/12288       21816/884736   ( 2.5%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1014/65536       56784/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              676/65536       37856/3670016  ( 1.0%) 
+facebrushes            102/0             204/0        ( 0.0%) 
+facebrushlists        1014/0            4056/0        ( 0.0%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             1517/65536        3034/131072   ( 2.3%) 
+leafbrushes           1069/65536        2138/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7489/512000      29956/2048000  ( 1.5%) 
+edges                 4683/256000      18732/1024000  ( 1.8%) 
+LDR worldlights         37/8192         3700/819200   ( 0.5%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            213/32768        2130/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3666/65536        7332/131072   ( 5.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      755436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       46931/16777216 ( 0.3%) 
+entdata               [variable]       33029/393216   ( 8.4%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient      3722/65536      104216/1835008  ( 5.7%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12140    ( 0.0%) 
+pakfile               [variable]      149726/0        ( 0.0%) 
+physics               [variable]      169541/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2786
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 726 texinfos to 303
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2742 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (   114 / 16384 )
+
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 726 texinfos to 303
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2744 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (   114 / 16384 )
+
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1259 visible clusters (0.00%)
+Total clusters visible: 118950
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 416
+visdatasize:46931  compressed from 46704
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+51 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1014 faces
+382890 square feet [55136228.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1014 patches before subdivision
+9724 patches after subdivision
+37 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 713895, max 361
+transfer lists:   5.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3351, 4684, 4939)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(933, 1348, 1367)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(328, 485, 484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(129, 194, 194)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(54, 82, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 36, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 16, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 7, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2 of 2 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                558/8192         6696/98304    ( 6.8%) 
+brushsides            4603/65536       36824/524288   ( 7.0%) 
+planes                2744/65536       54880/1310720  ( 4.2%) 
+vertexes              2633/65536       31596/786432   ( 4.0%) 
+nodes                  995/65536       31840/2097152  ( 1.5%) 
+texinfos               303/12288       21816/884736   ( 2.5%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1014/65536       56784/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              676/65536       37856/3670016  ( 1.0%) 
+facebrushes            102/0             204/0        ( 0.0%) 
+facebrushlists        1014/0            4056/0        ( 0.0%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             1517/65536        3034/131072   ( 2.3%) 
+leafbrushes           1069/65536        2138/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7489/512000      29956/2048000  ( 1.5%) 
+edges                 4683/256000      18732/1024000  ( 1.8%) 
+LDR worldlights         37/8192         3700/819200   ( 0.5%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            213/32768        2130/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3666/65536        7332/131072   ( 5.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      755436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       46931/16777216 ( 0.3%) 
+entdata               [variable]       33029/393216   ( 8.4%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient      3716/65536      104048/1835008  ( 5.7%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12140    ( 0.0%) 
+pakfile               [variable]      149726/0        ( 0.0%) 
+physics               [variable]      169541/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2786
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 726 texinfos to 303
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2752 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (   114 / 16384 )
+
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1259 visible clusters (0.00%)
+Total clusters visible: 118950
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 416
+visdatasize:46931  compressed from 46704
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1 minute, 8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1014 faces
+382878 square feet [55134436.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1014 patches before subdivision
+9724 patches after subdivision
+37 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 713897, max 361
+transfer lists:   5.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3351, 4684, 4939)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(933, 1348, 1367)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(328, 485, 484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(129, 194, 194)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(54, 82, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 36, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 16, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 7, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0042 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2 of 2 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                558/8192         6696/98304    ( 6.8%) 
+brushsides            4603/65536       36824/524288   ( 7.0%) 
+planes                2752/65536       55040/1310720  ( 4.2%) 
+vertexes              2633/65536       31596/786432   ( 4.0%) 
+nodes                  995/65536       31840/2097152  ( 1.5%) 
+texinfos               303/12288       21816/884736   ( 2.5%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1014/65536       56784/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              676/65536       37856/3670016  ( 1.0%) 
+facebrushes            102/0             204/0        ( 0.0%) 
+facebrushlists        1014/0            4056/0        ( 0.0%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             1517/65536        3034/131072   ( 2.3%) 
+leafbrushes           1069/65536        2138/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7489/512000      29956/2048000  ( 1.5%) 
+edges                 4683/256000      18732/1024000  ( 1.8%) 
+LDR worldlights         37/8192         3700/819200   ( 0.5%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            213/32768        2130/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3666/65536        7332/131072   ( 5.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      755436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       46931/16777216 ( 0.3%) 
+entdata               [variable]       33030/393216   ( 8.4%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient      3716/65536      104048/1835008  ( 5.7%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11938    ( 0.0%) 
+pakfile               [variable]      149726/0        ( 0.0%) 
+physics               [variable]      169541/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2786
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+18 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 726 texinfos to 303
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2752 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (   114 / 16384 )
+
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2.
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 726 texinfos to 303
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2752 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (   114 / 16384 )
+
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1259 visible clusters (0.00%)
+Total clusters visible: 118950
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 416
+visdatasize:46931  compressed from 46704
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1 minute, 1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1014 faces
+382909 square feet [55138916.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1014 patches before subdivision
+9724 patches after subdivision
+37 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 713894, max 361
+transfer lists:   5.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3351, 4684, 4939)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(933, 1348, 1367)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(328, 485, 484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(129, 194, 194)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(54, 82, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 36, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 16, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 7, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2 of 2 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                558/8192         6696/98304    ( 6.8%) 
+brushsides            4603/65536       36824/524288   ( 7.0%) 
+planes                2752/65536       55040/1310720  ( 4.2%) 
+vertexes              2633/65536       31596/786432   ( 4.0%) 
+nodes                  995/65536       31840/2097152  ( 1.5%) 
+texinfos               303/12288       21816/884736   ( 2.5%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1014/65536       56784/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              676/65536       37856/3670016  ( 1.0%) 
+facebrushes            102/0             204/0        ( 0.0%) 
+facebrushlists        1014/0            4056/0        ( 0.0%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             1517/65536        3034/131072   ( 2.3%) 
+leafbrushes           1069/65536        2138/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7489/512000      29956/2048000  ( 1.5%) 
+edges                 4683/256000      18732/1024000  ( 1.8%) 
+LDR worldlights         37/8192         3700/819200   ( 0.5%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            213/32768        2130/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3666/65536        7332/131072   ( 5.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      755436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       46931/16777216 ( 0.3%) 
+entdata               [variable]       33076/393216   ( 8.4%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient      3713/65536      103964/1835008  ( 5.7%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11938    ( 0.0%) 
+pakfile               [variable]      149726/0        ( 0.0%) 
+physics               [variable]      169541/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2786
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 726 texinfos to 303
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2752 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (    97 / 16384 )
+
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1259 visible clusters (0.00%)
+Total clusters visible: 118950
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 416
+visdatasize:46931  compressed from 46704
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1 minute, 5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1014 faces
+382909 square feet [55138916.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1014 patches before subdivision
+9724 patches after subdivision
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 713894, max 361
+transfer lists:   5.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2721, 3889, 4036)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(873, 1273, 1285)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(321, 476, 475)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(128, 192, 193)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(54, 82, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 36, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 16, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 7, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0041 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2 of 2 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                558/8192         6696/98304    ( 6.8%) 
+brushsides            4603/65536       36824/524288   ( 7.0%) 
+planes                2752/65536       55040/1310720  ( 4.2%) 
+vertexes              2633/65536       31596/786432   ( 4.0%) 
+nodes                  995/65536       31840/2097152  ( 1.5%) 
+texinfos               303/12288       21816/884736   ( 2.5%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1014/65536       56784/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              676/65536       37856/3670016  ( 1.0%) 
+facebrushes            102/0             204/0        ( 0.0%) 
+facebrushlists        1014/0            4056/0        ( 0.0%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             1517/65536        3034/131072   ( 2.3%) 
+leafbrushes           1069/65536        2138/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7489/512000      29956/2048000  ( 1.5%) 
+edges                 4683/256000      18732/1024000  ( 1.8%) 
+LDR worldlights         20/8192         2000/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            213/32768        2130/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3666/65536        7332/131072   ( 5.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      755436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       46931/16777216 ( 0.3%) 
+entdata               [variable]       29662/393216   ( 7.5%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient      3487/65536       97636/1835008  ( 5.3%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11938    ( 0.0%) 
+pakfile               [variable]      149726/0        ( 0.0%) 
+physics               [variable]      169541/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2786
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 726 texinfos to 303
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2752 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (    97 / 16384 )
+
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1259 visible clusters (0.00%)
+Total clusters visible: 118950
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 416
+visdatasize:46931  compressed from 46704
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+52 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1014 faces
+382909 square feet [55138916.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1014 patches before subdivision
+9724 patches after subdivision
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 713894, max 361
+transfer lists:   5.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2721, 3889, 4036)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(873, 1273, 1285)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(321, 476, 475)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(128, 192, 193)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(54, 82, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 36, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 16, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 7, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0222 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2 of 2 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                558/8192         6696/98304    ( 6.8%) 
+brushsides            4603/65536       36824/524288   ( 7.0%) 
+planes                2752/65536       55040/1310720  ( 4.2%) 
+vertexes              2633/65536       31596/786432   ( 4.0%) 
+nodes                  995/65536       31840/2097152  ( 1.5%) 
+texinfos               303/12288       21816/884736   ( 2.5%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1014/65536       56784/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              676/65536       37856/3670016  ( 1.0%) 
+facebrushes            102/0             204/0        ( 0.0%) 
+facebrushlists        1014/0            4056/0        ( 0.0%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             1517/65536        3034/131072   ( 2.3%) 
+leafbrushes           1069/65536        2138/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7489/512000      29956/2048000  ( 1.5%) 
+edges                 4683/256000      18732/1024000  ( 1.8%) 
+LDR worldlights         20/8192         2000/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            213/32768        2130/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3666/65536        7332/131072   ( 5.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      755436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       46931/16777216 ( 0.3%) 
+entdata               [variable]       29658/393216   ( 7.5%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient      3487/65536       97636/1835008  ( 5.3%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11938    ( 0.0%) 
+pakfile               [variable]      149726/0        ( 0.0%) 
+physics               [variable]      169541/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2786
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 726 texinfos to 303
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2752 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (   113 / 16384 )
+
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1259 visible clusters (0.00%)
+Total clusters visible: 118950
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 416
+visdatasize:46931  compressed from 46704
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+49 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1014 faces
+382909 square feet [55138916.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1014 patches before subdivision
+9724 patches after subdivision
+36 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 685038, max 361
+transfer lists:   5.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3206, 4500, 4728)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(912, 1322, 1338)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(325, 480, 480)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(129, 193, 194)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(54, 82, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 36, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 16, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 7, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2 of 2 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                558/8192         6696/98304    ( 6.8%) 
+brushsides            4603/65536       36824/524288   ( 7.0%) 
+planes                2752/65536       55040/1310720  ( 4.2%) 
+vertexes              2633/65536       31596/786432   ( 4.0%) 
+nodes                  995/65536       31840/2097152  ( 1.5%) 
+texinfos               303/12288       21816/884736   ( 2.5%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1014/65536       56784/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              676/65536       37856/3670016  ( 1.0%) 
+facebrushes            102/0             204/0        ( 0.0%) 
+facebrushlists        1014/0            4056/0        ( 0.0%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             1517/65536        3034/131072   ( 2.3%) 
+leafbrushes           1069/65536        2138/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7489/512000      29956/2048000  ( 1.5%) 
+edges                 4683/256000      18732/1024000  ( 1.8%) 
+LDR worldlights         36/8192         3600/819200   ( 0.4%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            213/32768        2130/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3666/65536        7332/131072   ( 5.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      755436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       46931/16777216 ( 0.3%) 
+entdata               [variable]       32872/393216   ( 8.4%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient      3699/65536      103572/1835008  ( 5.6%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11938    ( 0.0%) 
+pakfile               [variable]      149726/0        ( 0.0%) 
+physics               [variable]      169541/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2786
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 726 texinfos to 303
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2752 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (   113 / 16384 )
+
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1259 visible clusters (0.00%)
+Total clusters visible: 118950
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 416
+visdatasize:46931  compressed from 46704
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+49 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1014 faces
+382909 square feet [55138916.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1014 patches before subdivision
+9724 patches after subdivision
+36 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 685038, max 361
+transfer lists:   5.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3206, 4500, 4728)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(912, 1322, 1338)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(325, 480, 480)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(129, 193, 194)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(54, 82, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 36, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 16, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 7, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0039 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2 of 2 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                558/8192         6696/98304    ( 6.8%) 
+brushsides            4603/65536       36824/524288   ( 7.0%) 
+planes                2752/65536       55040/1310720  ( 4.2%) 
+vertexes              2633/65536       31596/786432   ( 4.0%) 
+nodes                  995/65536       31840/2097152  ( 1.5%) 
+texinfos               303/12288       21816/884736   ( 2.5%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1014/65536       56784/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              676/65536       37856/3670016  ( 1.0%) 
+facebrushes            102/0             204/0        ( 0.0%) 
+facebrushlists        1014/0            4056/0        ( 0.0%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             1517/65536        3034/131072   ( 2.3%) 
+leafbrushes           1069/65536        2138/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7489/512000      29956/2048000  ( 1.5%) 
+edges                 4683/256000      18732/1024000  ( 1.8%) 
+LDR worldlights         36/8192         3600/819200   ( 0.4%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            213/32768        2130/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3666/65536        7332/131072   ( 5.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      755436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       46931/16777216 ( 0.3%) 
+entdata               [variable]       32893/393216   ( 8.4%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient      3699/65536      103572/1835008  ( 5.6%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11938    ( 0.0%) 
+pakfile               [variable]      149726/0        ( 0.0%) 
+physics               [variable]      169541/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2786
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 726 texinfos to 303
+Reduced 33 texdatas to 30 (950 bytes to 870)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+
+nummapplanes:     (  2748 / 65536 )
+nummapbrushes:    (   558 /  8192 )
+nummapbrushsides: (  4574 / 65536 )
+num_map_overlays: (     8 /   512 )
+nummodels:        (    21 /  1024 )
+num_entities:     (   113 / 16384 )
+
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.prt
+ 417 portalclusters
+1294 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1259 visible clusters (0.00%)
+Total clusters visible: 118950
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 416
+visdatasize:46931  compressed from 46704
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+49 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+1014 faces
+382909 square feet [55138916.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1014 patches before subdivision
+9724 patches after subdivision
+36 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 685038, max 361
+transfer lists:   5.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3206, 4500, 4728)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(912, 1322, 1338)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(325, 480, 480)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(129, 193, 194)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(54, 82, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 36, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 16, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 7, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2 of 2 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                558/8192         6696/98304    ( 6.8%) 
+brushsides            4603/65536       36824/524288   ( 7.0%) 
+planes                2748/65536       54960/1310720  ( 4.2%) 
+vertexes              2633/65536       31596/786432   ( 4.0%) 
+nodes                  995/65536       31840/2097152  ( 1.5%) 
+texinfos               303/12288       21816/884736   ( 2.5%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1014/65536       56784/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              676/65536       37856/3670016  ( 1.0%) 
+facebrushes            102/0             204/0        ( 0.0%) 
+facebrushlists        1014/0            4056/0        ( 0.0%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             1517/65536        3034/131072   ( 2.3%) 
+leafbrushes           1069/65536        2138/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7489/512000      29956/2048000  ( 1.5%) 
+edges                 4683/256000      18732/1024000  ( 1.8%) 
+LDR worldlights         36/8192         3600/819200   ( 0.4%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            213/32768        2130/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3666/65536        7332/131072   ( 5.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      755436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       46931/16777216 ( 0.3%) 
+entdata               [variable]       32893/393216   ( 8.4%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient      3699/65536      103572/1835008  ( 5.6%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11954    ( 0.0%) 
+pakfile               [variable]      149726/0        ( 0.0%) 
+physics               [variable]      169541/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2786
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\lastataperture_mod\maps\prefabs_or_instances\elevator_rooms\elevator_room_standart\elevator_room_standart_depart.bsp
+9 seconds elapsed

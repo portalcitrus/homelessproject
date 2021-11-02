@@ -1,0 +1,256 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8973"
+	"mapversion" "31"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "2"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "31"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	group
+	{
+		"id" "374"
+		editor
+		{
+			"color" "222 223 0"
+			"groupid" "401"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "401"
+		editor
+		{
+			"color" "222 223 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2"
+		editor
+		{
+			"color" "222 223 0"
+			"groupid" "374"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "439"
+	"classname" "info_particle_system"
+	"angles" "0 0 180"
+	"effect_name" "BR_dust_particles_in_light"
+	"start_active" "$enable_particles?"
+	"targetname" "particles"
+	"origin" "10 2 0.0089016"
+	editor
+	{
+		"color" "200 200 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8500 -8768]"
+	}
+}
+entity
+{
+	"id" "504"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"health" "10"
+	"message" "ambient/ambobject_loop_lightbuzz_01.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "512"
+	"spawnflags" "16"
+	"targetname" "sound"
+	"origin" "18 2 1.90735e-006"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11768]"
+	}
+}
+entity
+{
+	"id" "508"
+	"classname" "func_instance_parms"
+	"parm1" "$light_color integer 255 255 255 200"
+	"parm2" "$sprite_color integer 255 255 255"
+	"parm3" "$model_skin integer 0"
+	"parm4" "$enable_particles? integer 0"
+	"parm5" "$disable_sound? integer 0"
+	"origin" "20 -14 1.90735e-006"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "510"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "$disable_sound?"
+	"targetname" "disable_sound"
+	connections
+	{
+		"OnTrigger" "soundPlaySound0-1"
+	}
+	"origin" "18 12 1.90735e-006"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "512"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "disable_soundTrigger0.1-1"
+	}
+	"origin" "18 40 1.90735e-006"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "420"
+	"classname" "env_sprite"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "8"
+	"HDRColorScale" ".9"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/light_glow02.vmt"
+	"renderamt" "145"
+	"rendercolor" "$sprite_color"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "2.3"
+	"spawnflags" "1"
+	"origin" "10 2 0"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -5768]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "prop_static"
+	"angles" "-90 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_lights/under_neonlamp.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "$model_skin"
+	"solid" "6"
+	"origin" "0 0 -0.00396729"
+	editor
+	{
+		"color" "222 223 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "259"
+	"classname" "light"
+	"_light" "$light_color"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "0 0 0"
+	"origin" "20 -24 0"
+	editor
+	{
+		"color" "222 223 0"
+		"groupid" "401"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "254"
+	"classname" "light"
+	"_light" "$light_color"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "0 0 0"
+	"origin" "19 24 0"
+	editor
+	{
+		"color" "222 223 0"
+		"groupid" "401"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

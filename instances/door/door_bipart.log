@@ -1,0 +1,63 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Portal 2\portal2\materials
+Loading D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\door\door_bipart.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (1664 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 14 texinfos to 2
+Reduced 2 texdatas to 2 (39 bytes to 39)
+Writing D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\door\door_bipart.bsp
+
+nummapplanes:     (    52 / 65536 )
+nummapbrushes:    (     3 /  8192 )
+nummapbrushsides: (    18 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     3 /  1024 )
+num_entities:     (    15 / 16384 )
+
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\door\door_bipart.bsp
+Empty map
+
+
+materialPath: D:\Steam\steamapps\common\Portal 2\portal2\materials
+Loading D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\door\door_bipart.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (1664 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 14 texinfos to 2
+Reduced 2 texdatas to 2 (39 bytes to 39)
+Writing D:\Steam\steamapps\common\Portal 2\sdk_content\maps\instances\door\door_bipart.bsp
+
+nummapplanes:     (    52 / 65536 )
+nummapbrushes:    (     3 /  8192 )
+nummapbrushsides: (    18 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     3 /  1024 )
+num_entities:     (    15 / 16384 )
+
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\instances\door\door_bipart.bsp
+Empty map
