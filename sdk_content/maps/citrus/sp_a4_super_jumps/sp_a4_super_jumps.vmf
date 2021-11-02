@@ -7554,8 +7554,8 @@ world
 		{
 			"id" "2623"
 			"plane" "(1152 1312 -128) (1152 1440 -128) (1152 1440 512)"
-			"material" "METAL/BLACK_WALL_METAL_002C"
-			"uaxis" "[0 -1 0 640] 0.25"
+			"material" "TILE/WHITE_WALL_TILE003A"
+			"uaxis" "[0 -1 0 -128] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
