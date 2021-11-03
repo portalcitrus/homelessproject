@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "1860"
+	"mapversion" "1863"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1860"
+	"mapversion" "1863"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -732,6 +732,82 @@ world
 	}
 	solid
 	{
+		"id" "616880"
+		side
+		{
+			"id" "24796"
+			"plane" "(2119 5802 7.02378) (2096 5802 7.02378) (2096 5812 7)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "24797"
+			"plane" "(2119 5815 -19.9762) (2096 5817 -19.9762) (2096 5802 -19.9762)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "24798"
+			"plane" "(2096 5802 -19.9762) (2096 5817 -19.9762) (2096 5812 7)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "24799"
+			"plane" "(2119 5802 7.02378) (2119 5812 7) (2119 5815 -19.9762)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "24800"
+			"plane" "(2096 5817 -19.9762) (2119 5815 -19.9762) (2119 5812 7)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "24801"
+			"plane" "(2096 5802 7.02378) (2119 5802 7.02378) (2119 5802 -19.9762)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 236 193"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "601602"
 		side
 		{
@@ -1362,7 +1438,7 @@ world
 		{
 			"id" "24515"
 			"plane" "(1872 5744 192) (2128 5744 192) (2128 6064 192)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "METAL/CITADEL_METALWALL060A"
 			"uaxis" "[1 0 0 -320] 0.25"
 			"vaxis" "[0 -1 0 192] 0.25"
 			"rotation" "0"
