@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "1773"
+	"mapversion" "1782"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,13 +32,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "1773"
+	"mapversion" "1782"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -72661,6 +72661,369 @@ entity
 }
 entity
 {
+	"id" "601945"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "16"
+	"speed" "0"
+	"target" "vactube_path87"
+	"targetname" "vactube_path86"
+	"origin" "1152 5920 512"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -14268]"
+	}
+}
+entity
+{
+	"id" "602005"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "vactube_path88"
+	"targetname" "vactube_path87"
+	"origin" "1152 6072 512"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -14268]"
+	}
+}
+entity
+{
+	"id" "602118"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "vactube_path89"
+	"targetname" "vactube_path88"
+	"origin" "1144 6136 512"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -14268]"
+	}
+}
+entity
+{
+	"id" "602128"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "vactube_path90"
+	"targetname" "vactube_path89"
+	"origin" "1168 6184 512"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -14268]"
+	}
+}
+entity
+{
+	"id" "602143"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "vactube_path91"
+	"targetname" "vactube_path90"
+	"origin" "1200 6224 512"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -14268]"
+	}
+}
+entity
+{
+	"id" "602148"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "vactube_path92"
+	"targetname" "vactube_path91"
+	"origin" "1256 6264 512"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -14268]"
+	}
+}
+entity
+{
+	"id" "602153"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "vactube_path93"
+	"targetname" "vactube_path92"
+	"origin" "1304 6272 512"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -14268]"
+	}
+}
+entity
+{
+	"id" "602173"
+	"classname" "path_track"
+	"altpath" "vactube_path94"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "vactube_path94_kill"
+	"targetname" "vactube_path93"
+	"origin" "1336 6272 512"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -14268]"
+	}
+}
+entity
+{
+	"id" "602188"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"targetname" "vactube_path94_kill"
+	connections
+	{
+		"OnPass" "!activatorKill0-1"
+	}
+	"origin" "1928 6272 512"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -14268]"
+	}
+}
+entity
+{
+	"id" "602238"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"targetname" "vactube_path94"
+	"origin" "1928 6272 512"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -14268]"
+	}
+}
+entity
+{
+	"id" "602297"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"cspinup" "0"
+	"fadeinsecs" "2"
+	"fadeoutsecs" "2"
+	"health" "4"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "ambient/industrial/delivery_tubes_lp_03.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1320"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "vac_sound1"
+	"volstart" "0"
+	"origin" "1160 6048 516.645"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "602309"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"cspinup" "0"
+	"fadeinsecs" "2"
+	"fadeoutsecs" "2"
+	"health" "4"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "ambient/industrial/delivery_tubes_lp_03.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1320"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "vac_sound1"
+	"volstart" "0"
+	"origin" "1224 6224 516.645"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "602317"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"cspinup" "0"
+	"fadeinsecs" "2"
+	"fadeoutsecs" "2"
+	"health" "4"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "ambient/industrial/delivery_tubes_lp_03.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1320"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "vac_sound1"
+	"volstart" "0"
+	"origin" "1496 6272 516.645"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "602321"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"cspinup" "0"
+	"fadeinsecs" "2"
+	"fadeoutsecs" "2"
+	"health" "6"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "ambient/industrial/delivery_tubes_lp_03.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1320"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "vac_sound1"
+	"volstart" "0"
+	"origin" "1680 6272 516.645"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "602329"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"cspinup" "0"
+	"fadeinsecs" "2"
+	"fadeoutsecs" "2"
+	"health" "8"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "ambient/industrial/delivery_tubes_lp_04.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1320"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "vac_sound1"
+	"volstart" "0"
+	"origin" "2000 6176 516.645"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
 	"id" "576305"
 	"classname" "prop_static"
 	"angles" "0 180 180"
@@ -101020,6 +101383,9 @@ hidden
 			"OnTrigger" "conveyor_panel5Stop0-1"
 			"OnTrigger" "conveyor_panel7Stop0-1"
 			"OnStartTouch" "area_portal4Close1-1"
+			"OnStartTouch" "vactube_path41_spawnToggleAlternatePath0-1"
+			"OnStartTouch" "vac_soundfadeout20-1"
+			"OnStartTouch" "vac_sound1FadeIn20-1"
 		}
 		hidden
 		{
@@ -104120,6 +104486,7 @@ hidden
 	{
 		"id" "322415"
 		"classname" "path_track"
+		"altpath" "vactube_path86"
 		"angles" "0 0 0"
 		"orientationtype" "1"
 		"radius" "0"
