@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "1908"
+	"mapversion" "1909"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1908"
+	"mapversion" "1909"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -46,6 +46,82 @@ world
 	"maxpropscreenwidth" "-1"
 	"paintinmap" "1"
 	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "659604"
+		side
+		{
+			"id" "26126"
+			"plane" "(3360 5920 800) (3360 6440 800) (3392 6440 800)"
+			"material" "/IEPPUEN_SPRAY"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26125"
+			"plane" "(3360 6440 360) (3360 5920 360) (3392 5920 360)"
+			"material" "/IEPPUEN_SPRAY"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26124"
+			"plane" "(3360 5920 360) (3360 6440 360) (3360 6440 800)"
+			"material" "/IEPPUEN_SPRAY"
+			"uaxis" "[0 1 0 -128] 0.25"
+			"vaxis" "[0 0 -1 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26123"
+			"plane" "(3392 6440 360) (3392 5920 360) (3392 5920 800)"
+			"material" "/IEPPUEN_SPRAY"
+			"uaxis" "[0 1 0 -192] 0.25"
+			"vaxis" "[0 0 -1 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26122"
+			"plane" "(3360 6440 360) (3392 6440 360) (3392 6440 800)"
+			"material" "/IEPPUEN_SPRAY"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26121"
+			"plane" "(3392 5920 360) (3360 5920 360) (3360 5920 800)"
+			"material" "/IEPPUEN_SPRAY"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 225 202"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "627671"
@@ -85793,7 +85869,7 @@ entity
 	"origin" "1184 6688 32"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2000 5000]"
@@ -92182,7 +92258,7 @@ entity
 	"origin" "970 6356 336"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8500 -8768]"
@@ -92231,7 +92307,7 @@ entity
 	"origin" "962.895 6344.27 333"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[4000 7000]"
@@ -94612,7 +94688,7 @@ entity
 	"origin" "864 6304 552"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3500]"
@@ -96185,7 +96261,7 @@ entity
 	"origin" "1473 6280 8"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -13768]"
@@ -96204,7 +96280,7 @@ entity
 	"origin" "1480 6329 8"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -13768]"
@@ -96223,7 +96299,7 @@ entity
 	"origin" "1480 6214 8"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -13768]"
@@ -96242,7 +96318,7 @@ entity
 	"origin" "1487 6280 8"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -13768]"
@@ -96266,7 +96342,7 @@ entity
 	"origin" "1392 6216 -1.88297"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 11000]"
@@ -96292,7 +96368,7 @@ entity
 	"origin" "1376 6216 -1.88297"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 10500]"
@@ -114460,7 +114536,7 @@ entity
 	"origin" "178 5132 0"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -115529,7 +115605,7 @@ entity
 	"origin" "1184 5640 0"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -116226,7 +116302,7 @@ entity
 	"origin" "544 4616 48"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -118596,7 +118672,7 @@ entity
 	"origin" "887.671 5315.18 37.5"
 	editor
 	{
-		"color" "200 0 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -119262,7 +119338,7 @@ entity
 	"origin" "888 5312 69.7199"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -119282,7 +119358,7 @@ entity
 	"origin" "0 5008 69.7199"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -119302,7 +119378,7 @@ entity
 	"origin" "1088 5008 69.7199"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -119329,7 +119405,7 @@ entity
 	"origin" "-160 4672 72"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -119356,7 +119432,7 @@ entity
 	"origin" "1160 4672 72"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -119408,7 +119484,7 @@ entity
 	"origin" "544 5712 72"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -119630,7 +119706,7 @@ entity
 	"origin" "1440 5328 48"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120520,7 +120596,7 @@ entity
 	"origin" "1480 4904 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120544,7 +120620,7 @@ entity
 	"origin" "1440 4904 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120568,7 +120644,7 @@ entity
 	"origin" "1400 4904 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120592,7 +120668,7 @@ entity
 	"origin" "1400 4952 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120616,7 +120692,7 @@ entity
 	"origin" "1440 4952 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120640,7 +120716,7 @@ entity
 	"origin" "1480 4952 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120664,7 +120740,7 @@ entity
 	"origin" "1480 4984 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120688,7 +120764,7 @@ entity
 	"origin" "1440 4984 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120712,7 +120788,7 @@ entity
 	"origin" "1400 4984 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120736,7 +120812,7 @@ entity
 	"origin" "1400 5024 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120760,7 +120836,7 @@ entity
 	"origin" "1440 5024 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120784,7 +120860,7 @@ entity
 	"origin" "1480 5024 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120808,7 +120884,7 @@ entity
 	"origin" "1480 5064 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120832,7 +120908,7 @@ entity
 	"origin" "1480 5112 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120856,7 +120932,7 @@ entity
 	"origin" "1440 5112 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120880,7 +120956,7 @@ entity
 	"origin" "1400 5112 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120904,7 +120980,7 @@ entity
 	"origin" "1400 5064 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -120928,7 +121004,7 @@ entity
 	"origin" "1440 5064 -192"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "0 180 0"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -123364,7 +123440,7 @@ entity
 	"origin" "544 5008 161"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -123394,7 +123470,7 @@ entity
 	"origin" "528 5008 161"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -123425,7 +123501,7 @@ entity
 	"origin" "560 5008 161"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -124836,7 +124912,7 @@ entity
 	"origin" "-3232 5008 -97"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -124863,7 +124939,7 @@ entity
 	"origin" "-3552 5008 -97"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -124890,7 +124966,7 @@ entity
 	"origin" "-3872 5008 -97"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -124917,7 +124993,7 @@ entity
 	"origin" "-4192 5008 -97"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -124944,7 +125020,7 @@ entity
 	"origin" "-4512 5008 -97"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -124971,7 +125047,7 @@ entity
 	"origin" "-4832 5008 -97"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -124998,7 +125074,7 @@ entity
 	"origin" "-5152 5008 -97"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -125025,7 +125101,7 @@ entity
 	"origin" "-5472 5008 -97"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -125210,7 +125286,7 @@ entity
 	"origin" "992 4656 438.149"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -125235,7 +125311,7 @@ entity
 	"origin" "96 4656 438.149"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -134310,7 +134386,7 @@ entity
 	"origin" "-48 5344 -536"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -134346,7 +134422,7 @@ entity
 	"origin" "-96 5232 -296"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -134382,7 +134458,7 @@ entity
 	"origin" "-168 5360 -392"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -135890,7 +135966,7 @@ entity
 	"origin" "544 3712 0"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -138973,7 +139049,7 @@ entity
 	"origin" "288 2376 0"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -139176,7 +139252,7 @@ entity
 	"origin" "-320 2384 0"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -147867,7 +147943,7 @@ entity
 	"origin" "544 5648 459.893"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -148995,7 +149071,7 @@ entity
 	"origin" "940 3392 -176"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -150545,7 +150621,7 @@ entity
 	"origin" "800 3328 -152"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -150572,7 +150648,7 @@ entity
 	"origin" "288 3072 0"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -161336,7 +161412,7 @@ entity
 	"origin" "528 3248 -46"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -166999,7 +167075,7 @@ entity
 	"origin" "-251.111 4711.53 -16.8975"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -170999,7 +171075,7 @@ entity
 	"origin" "288 2696 0"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -171419,7 +171495,7 @@ entity
 	"origin" "816 1120 9"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -171473,7 +171549,7 @@ entity
 	"origin" "800 1136 9"
 	editor
 	{
-		"color" "200 0 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -193336,7 +193412,7 @@ entity
 	"origin" "192 1600 128"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -193356,7 +193432,7 @@ entity
 	"origin" "464 1152 128"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -193376,7 +193452,7 @@ entity
 	"origin" "768 1152 128"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -194295,7 +194371,7 @@ entity
 	"origin" "576 -16 -64"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -196419,7 +196495,7 @@ entity
 	"origin" "144 984 96"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -197233,7 +197309,7 @@ entity
 	"origin" "272 1648 232"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -197834,7 +197910,7 @@ entity
 	"origin" "-376 1600 207.75"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -197861,7 +197937,7 @@ entity
 	"origin" "-400 1600 208"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -198539,7 +198615,7 @@ entity
 	"origin" "584 1568 32"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -198584,7 +198660,7 @@ entity
 	"origin" "-224.001 1856 64"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -198864,7 +198940,7 @@ entity
 	"origin" "-100.001 1644 36"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -201272,7 +201348,7 @@ entity
 	"origin" "696 1264 96"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -201288,7 +201364,7 @@ entity
 	"origin" "696 1240 96"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -201304,7 +201380,7 @@ entity
 	"origin" "696 1216 96"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -201329,7 +201405,7 @@ entity
 	"origin" "656 1219.13 100.053"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -201354,7 +201430,7 @@ entity
 	"origin" "736 1216 128"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -201378,7 +201454,7 @@ entity
 	"origin" "736 1248 128"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupid" "75"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
