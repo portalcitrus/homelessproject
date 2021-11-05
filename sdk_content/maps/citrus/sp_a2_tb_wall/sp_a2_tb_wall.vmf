@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "391"
+	"mapversion" "392"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "391"
+	"mapversion" "392"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -143,7 +143,7 @@ world
 		{
 			"id" "16837"
 			"plane" "(-256 1296 384) (-512 1296 384) (-512 1296 512)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS_COLOR02_SSBUMP"
+			"material" "ANIM_WP/FRAMEWORK/BACKPANELS02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -295,7 +295,7 @@ world
 		{
 			"id" "16861"
 			"plane" "(-256 1296 512) (-384 1296 512) (-384 1296 640)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS_COLOR02_SSBUMP"
+			"material" "ANIM_WP/FRAMEWORK/BACKPANELS02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -11584,7 +11584,7 @@ world
 		"id" "17026"
 		side
 		{
-			"id" "14266"
+			"id" "17702"
 			"plane" "(-640 1344 256) (-768 1344 256) (-768 1280 256)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -11595,7 +11595,7 @@ world
 		}
 		side
 		{
-			"id" "14265"
+			"id" "17701"
 			"plane" "(-768 1280 384) (-768 1280 256) (-768 1344 256)"
 			"material" "METAL/BLACK_WALL_METAL_002C"
 			"uaxis" "[0 1 0 -768] 0.25"
@@ -11606,7 +11606,7 @@ world
 		}
 		side
 		{
-			"id" "14264"
+			"id" "17700"
 			"plane" "(-768 1344 384) (-768 1344 256) (-640 1344 256)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -11617,7 +11617,7 @@ world
 		}
 		side
 		{
-			"id" "14263"
+			"id" "17699"
 			"plane" "(-640 1280 256) (-768 1280 256) (-768 1280 384)"
 			"material" "METAL/BLACK_WALL_METAL_002C"
 			"uaxis" "[1 0 0 512] 0.25"
@@ -11628,7 +11628,7 @@ world
 		}
 		side
 		{
-			"id" "14262"
+			"id" "17698"
 			"plane" "(-640 1280 384) (-768 1280 384) (-768 1344 384)"
 			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS_DARK_CROP"
 			"uaxis" "[0 1 0 50] 0.25"
@@ -11639,7 +11639,7 @@ world
 		}
 		side
 		{
-			"id" "14261"
+			"id" "17697"
 			"plane" "(-640 1344 384) (-640 1344 256) (-640 1280 256)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
