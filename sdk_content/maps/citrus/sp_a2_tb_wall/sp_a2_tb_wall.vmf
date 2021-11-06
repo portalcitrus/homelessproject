@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "392"
+	"mapversion" "393"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "392"
+	"mapversion" "393"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -29197,7 +29197,7 @@ entity
 	"endv" "1"
 	"fademindist" "-1"
 	"material" "signage/signage_overlay_arrow"
-	"sides" "17075"
+	"sides" "17679"
 	"startu" "1"
 	"startv" "0"
 	"uv0" "-16 -16 0"
@@ -29226,7 +29226,7 @@ entity
 	"endv" "1"
 	"fademindist" "-1"
 	"material" "signage/a4_wallbutton_boxdispenser"
-	"sides" "17075"
+	"sides" "17679"
 	"startu" "1"
 	"startv" "0"
 	"uv0" "-16 -16 0"
@@ -33877,7 +33877,7 @@ entity
 	"origin" "288 1664 144"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -33900,7 +33900,7 @@ entity
 	"origin" "304 1664 144"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -33930,7 +33930,7 @@ entity
 	"origin" "512.008 1663.89 152"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1500 15500]"
@@ -33956,7 +33956,7 @@ entity
 	"origin" "512.008 1663.89 168"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1500 16000]"
@@ -37230,7 +37230,7 @@ entity
 	"origin" "368 1728 304"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 200 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
@@ -37250,7 +37250,7 @@ entity
 	"origin" "-464 128 272"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 200 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -41950,7 +41950,7 @@ entity
 	"origin" "16 288 208"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -13768]"
@@ -44556,7 +44556,7 @@ entity
 	"origin" "-768 896 64"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2500]"
