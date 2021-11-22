@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "37"
+	"mapversion" "38"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1752"
+	"mapversion" "38"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1023,9 +1023,9 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/lights_extended/office_light.vmf"
 	"fixup_style" "0"
-	"replace01" "$light_color 232 248 255 7"
-	"replace02" "$light_spot_color 232 248 255 60"
-	"replace03" "$sprite_color 232 248 255"
+	"replace01" "$light_color 197 230 254 7"
+	"replace02" "$light_spot_color 197 230 254 60"
+	"replace03" "$sprite_color 197 230 254"
 	"replace04" "$model_skin 2"
 	"replace05" "$enable_particles? 1"
 	"replace06" "$disable_sound? 0"
