@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5550"
-	"mapversion" "189"
+	"editorbuild" "8973"
+	"mapversion" "192"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "189"
+	"mapversion" "192"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -34,9 +34,9 @@ world
 		{
 			"id" "659"
 			"plane" "(-60 60 -126) (60 60 -126) (60 -60 -126)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS_CHEAP"
-			"uaxis" "[1 0 0 256] 0.234375"
-			"vaxis" "[0 -1 0 256] 0.234375"
+			"material" "ANIM_WP/FRAMEWORK/BACKPANELS_COLOR01_CHEAP"
+			"uaxis" "[1 0 0 256] 0.23"
+			"vaxis" "[0 -1 0 256] 0.23"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -543,7 +543,7 @@ entity
 			"id" "520"
 			"plane" "(-63 -63 -66) (-63 63 -66) (-64 64 -64)"
 			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
-			"uaxis" "[0 0 1 240] 0.09"
+			"uaxis" "[0 0 1 -200] 0.25"
 			"vaxis" "[0 1 0 256] 0.25"
 			"rotation" "90"
 			"lightmapscale" "16"
@@ -554,7 +554,7 @@ entity
 			"id" "519"
 			"plane" "(63 63 -66) (63 -63 -66) (64 -64 -64)"
 			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
-			"uaxis" "[0 0 1 240] 0.09"
+			"uaxis" "[0 0 1 -200] 0.25"
 			"vaxis" "[0 1 0 256] 0.25"
 			"rotation" "90"
 			"lightmapscale" "16"
@@ -565,7 +565,7 @@ entity
 			"id" "518"
 			"plane" "(-63 63 -66) (63 63 -66) (64 64 -64)"
 			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
-			"uaxis" "[0 0 1 240] 0.09"
+			"uaxis" "[0 0 1 -200] 0.25"
 			"vaxis" "[1 0 0 256] 0.25"
 			"rotation" "90"
 			"lightmapscale" "16"
@@ -576,7 +576,7 @@ entity
 			"id" "517"
 			"plane" "(63 -63 -66) (-63 -63 -66) (-64 -64 -64)"
 			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
-			"uaxis" "[0 0 1 240] 0.09"
+			"uaxis" "[0 0 1 -200] 0.25"
 			"vaxis" "[1 0 0 256] 0.25"
 			"rotation" "90"
 			"lightmapscale" "16"
