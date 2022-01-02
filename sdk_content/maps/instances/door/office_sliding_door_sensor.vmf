@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "20"
+	"mapversion" "26"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,19 +14,65 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "26"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "605"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "1"
+	"targetname" "Open_locked"
+	connections
+	{
+		"OnTrigger" "!selfDisable0-1"
+		"OnTrigger" "Close_lockedEnable0-1"
+		"OnTrigger" "sensor_sprite_redShowSprite0-1"
+	}
+	"origin" "-24 8 120"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "607"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "Close_locked"
+	connections
+	{
+		"OnTrigger" "Open_lockedEnable0-1"
+		"OnTrigger" "!selfDisable0-1"
+		"OnTrigger" "sensor_sprite_redHideSprite0-1"
+	}
+	"origin" "-24 -8 120"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
 }
 entity
 {
@@ -80,7 +126,6 @@ entity
 		"OnTrigger" "!selfDisable0-1"
 		"OnTrigger" "CloseEnable0-1"
 		"OnTrigger" "sensor_sprite_greenShowSprite0-1"
-		"OnTrigger" "sensor_sprite_redHideSprite0-1"
 		"OnTrigger" "door*SetAnimationopen0-1"
 	}
 	"origin" "-8 24 120"
@@ -103,7 +148,6 @@ entity
 	{
 		"OnTrigger" "OpenEnable0-1"
 		"OnTrigger" "!selfDisable0-1"
-		"OnTrigger" "sensor_sprite_redShowSprite0-1"
 		"OnTrigger" "sensor_sprite_greenHideSprite0-1"
 		"OnTrigger" "door*SetAnimationclose0-1"
 	}
@@ -121,11 +165,13 @@ entity
 	"id" "310"
 	"classname" "logic_relay"
 	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
 	"targetname" "Lock"
 	connections
 	{
 		"OnTrigger" "OpenDisable0-1"
-		"OnTrigger" "sensor_sprite*HideSprite0-1"
+		"OnTrigger" "Open_lockedEnable0-1"
 	}
 	"origin" "-8 -8 120"
 	editor
@@ -141,11 +187,12 @@ entity
 	"id" "316"
 	"classname" "logic_relay"
 	"angles" "0 0 0"
+	"spawnflags" "0"
 	"targetname" "Unlock"
 	connections
 	{
-		"OnTrigger" "OpenEnable0.01-1"
-		"OnTrigger" "sensor_sprite_redShowSprite0-1"
+		"OnTrigger" "Open_lockedDisable0-1"
+		"OnTrigger" "OpenEnable0-1"
 	}
 	"origin" "-8 -24 120"
 	editor
@@ -295,7 +342,7 @@ entity
 	"rendercolor" "216 54 54"
 	"rendermode" "9"
 	"scale" "0.05"
-	"spawnflags" "1"
+	"spawnflags" "0"
 	"targetname" "sensor_sprite_red"
 	"origin" "3.84763 13.2652 120.735"
 	editor
@@ -367,7 +414,7 @@ entity
 	"rendercolor" "216 54 54"
 	"rendermode" "9"
 	"scale" "0.05"
-	"spawnflags" "1"
+	"spawnflags" "0"
 	"targetname" "sensor_sprite_red"
 	"origin" "-3.7958 -12.927 120.735"
 	editor
@@ -418,6 +465,8 @@ entity
 	{
 		"OnStartTouch" "OpenTrigger0-1"
 		"OnEndTouch" "CloseTrigger0-1"
+		"OnStartTouch" "Open_lockedTrigger0-1"
+		"OnEndTouch" "Close_lockedTrigger0-1"
 	}
 	solid
 	{
