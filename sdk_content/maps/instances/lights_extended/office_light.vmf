@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "47"
+	"mapversion" "48"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "47"
+	"mapversion" "48"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -130,7 +130,7 @@ entity
 	"rendermode" "9"
 	"scale" "2.3"
 	"spawnflags" "1"
-	"origin" "-7.62939e-006 0 -16"
+	"origin" "0 0 -10"
 	editor
 	{
 		"color" "20 140 20"
