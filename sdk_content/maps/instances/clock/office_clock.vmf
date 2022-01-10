@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "16"
+	"mapversion" "17"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "16"
+	"mapversion" "17"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -77,7 +77,7 @@ entity
 	"id" "5"
 	"classname" "ambient_generic"
 	"angles" "0 0 0"
-	"health" "6"
+	"health" "10"
 	"message" "ambient/new/ambobject_loop_wallclock_01.wav"
 	"pitch" "100"
 	"pitchstart" "100"
