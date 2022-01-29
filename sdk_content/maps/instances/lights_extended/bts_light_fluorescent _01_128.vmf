@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "34"
+	"mapversion" "36"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "34"
+	"mapversion" "36"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -30,53 +30,12 @@ world
 }
 entity
 {
-	"id" "1157"
-	"classname" "logic_auto"
-	"angles" "0 0 0"
-	"spawnflags" "1"
-	connections
-	{
-		"OnMapSpawn" "disable_soundTrigger0.1-1"
-	}
-	"origin" "32 32 0"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "225"
-	"classname" "logic_relay"
-	"angles" "0 0 0"
-	"spawnflags" "0"
-	"startdisabled" "$disable_sound?"
-	"targetname" "disable_sound"
-	connections
-	{
-		"OnTrigger" "soundPlaySound0-1"
-	}
-	"origin" "32 16 0"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "238"
 	"classname" "func_instance_parms"
 	"parm1" "$light_color integer 255 255 255 200"
 	"parm2" "$sprite_color integer 255 255 255"
 	"parm3" "$model_skin integer 0"
 	"parm4" "$enable_particles? integer 0"
-	"parm5" "$disable_sound? integer 0"
 	"origin" "32 -16 0"
 	editor
 	{
@@ -84,27 +43,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "134"
-	"classname" "ambient_generic"
-	"angles" "0 0 0"
-	"health" "10"
-	"message" "ambient/ambobject_loop_lightbuzz_01.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"radius" "512"
-	"spawnflags" "16"
-	"targetname" "sound"
-	"origin" "24 0 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -11768]"
 	}
 }
 entity

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "12"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "12"
+	"mapversion" "13"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -40,46 +40,6 @@ world
 }
 entity
 {
-	"id" "346"
-	"classname" "logic_auto"
-	"angles" "0 0 0"
-	"spawnflags" "1"
-	connections
-	{
-		"OnMapSpawn" "disable_soundTrigger0.1-1"
-	}
-	"origin" "0 16 -9.00004"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "348"
-	"classname" "logic_relay"
-	"angles" "0 0 0"
-	"spawnflags" "0"
-	"startdisabled" "$disable_sound?"
-	"targetname" "disable_sound"
-	connections
-	{
-		"OnTrigger" "soundPlaySound0-1"
-	}
-	"origin" "0 -16 -9.00004"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "350"
 	"classname" "func_instance_parms"
 	"parm1" "$light_color integer 255 255 255 200"
@@ -87,7 +47,6 @@ entity
 	"parm3" "$sprite_color integer 255 255 255"
 	"parm4" "$model_skin integer 0"
 	"parm5" "$enable_particles? integer 0"
-	"parm6" "$disable_sound? integer 1"
 	"origin" "16 1.90735e-006 -9.00004"
 	editor
 	{
@@ -220,38 +179,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1500 -5768]"
-	}
-}
-entity
-{
-	"id" "168"
-	"classname" "ambient_generic"
-	"angles" "0 0 0"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "ambient/electrical/amb_fluorescent_lights_lp_02.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "308"
-	"spawnflags" "16"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "sound"
-	"volstart" "0"
-	"origin" "0.061295 0 -4"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -15268]"
 	}
 }
 cameras
