@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "17"
+	"mapversion" "18"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "18"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -70,27 +70,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[14000 -6268]"
-	}
-}
-entity
-{
-	"id" "5"
-	"classname" "ambient_generic"
-	"angles" "0 0 0"
-	"health" "10"
-	"message" "ambient/new/ambobject_loop_wallclock_01.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"radius" "165"
-	"spawnflags" "0"
-	"targetname" "clock_ticking"
-	"origin" "0 0 -0.0876007"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[14000 -5268]"
 	}
 }
 entity
